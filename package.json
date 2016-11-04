@@ -22,5 +22,12 @@
   },
   "keywords": [
     "generategenerator"
-  ]
+  ],
+  "dependencies": {
+    "extend-shallow": "^2.0.1",
+    "is-buffer": "^1.1.4"
+  },
+  "devDependencies": {
+    "ngraph.graph": "0.0.12"
+  }
 }
