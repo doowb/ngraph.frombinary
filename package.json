@@ -11,7 +11,9 @@
   "license": "MIT",
   "files": [
     "index.js",
-    "LICENSE"
+    "lib",
+    "LICENSE",
+    "README.md"
   ],
   "main": "index.js",
   "engines": {
@@ -20,9 +22,6 @@
   "scripts": {
     "test": "mocha"
   },
-  "keywords": [
-    "generategenerator"
-  ],
   "dependencies": {
     "extend-shallow": "^2.0.1",
     "is-buffer": "^1.1.4"
@@ -35,6 +34,16 @@
     "ngraph.graph": "0.0.12",
     "ngraph.tobinary": "^1.0.1"
   },
+  "keywords": [
+    "binary",
+    "deserialize",
+    "frombinary",
+    "graph",
+    "ngraph",
+    "ngraph-graph",
+    "serialize",
+    "tobinary"
+  ],
   "verb": {
     "toc": false,
     "layout": "default",
@@ -48,7 +57,10 @@
       "reflinks": true
     },
     "related": {
-      "list": []
+      "list": [
+        "ngraph.graph",
+        "ngraph.tobinary"
+      ]
     },
     "reflinks": [
       "ngraph.graph",
