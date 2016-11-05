@@ -68,6 +68,11 @@ console.log(graph.getLinksCount());
 
 ## About
 
+### Related projects
+
+* [ngraph.graph](https://www.npmjs.com/package/ngraph.graph): Base graph structure in ngraph.* | [homepage](https://github.com/anvaka/ngraph.graph#readme "Base graph structure in ngraph.*")
+* [ngraph.tobinary](https://www.npmjs.com/package/ngraph.tobinary): Serialize ngraph.graph to binary format | [homepage](https://github.com/anvaka/ngraph.tobinary "Serialize ngraph.graph to binary format")
+
 ### Contributing
 
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](../../issues/new).
