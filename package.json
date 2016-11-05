@@ -29,9 +29,32 @@
   },
   "devDependencies": {
     "delete": "^0.3.2",
+    "gulp-format-md": "^0.1.11",
     "mkdirp": "^0.5.1",
     "mocha": "^3.1.2",
     "ngraph.graph": "0.0.12",
     "ngraph.tobinary": "^1.0.1"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "related": {
+      "list": []
+    },
+    "reflinks": [
+      "ngraph.graph",
+      "ngraph.tobinary",
+      "verb",
+      "verb-generate-readme"
+    ]
   }
 }
